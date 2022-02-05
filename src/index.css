@@ -1,0 +1,163 @@
+html{
+  scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back {
+  background-image: url(https://cutewallpaper.org/21/black-gif-background/Background-GIF-Find-on-GIFER.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+
+.inputForm{
+  @apply border-2 p-2 rounded-sm 
+}
+
+
+
+.custom-shape-divider-bottom-1643792529 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643792529 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 101px;
+}
+
+.custom-shape-divider-bottom-1643792529 .shape-fill {
+  fill: #ffffff;
+}
+
+
+
+
+.custom-shape-divider-top-1643793762 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1643793762 svg {
+  position: relative;
+  display: block;
+  width: calc(110% + 1.3px);
+  height: 97px;
+}
+
+.custom-shape-divider-top-1643793762 .shape-fill {
+  fill: #FFFBFB;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1643793762 svg {
+      width: calc(171% + 1.3px);
+      height: 66px;
+  }
+}
+
+
+
+
+/* tilt  */
+.custom-shape-divider-bottom-1643982379 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643982379 svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 100px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1643982379 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+/* Waves */
+
+.custom-shape-divider-bottom-1643987636 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643987636 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-bottom-1643987636 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-bottom-1643987636 svg {
+      width: calc(115% + 1.3px);
+      height: 80px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1643987636 svg {
+      width: calc(100% + 1.3px);
+      height: 38px;
+  }
+}
