@@ -7,9 +7,9 @@ const SERVICE_ID = "service_dnqo4tp";
 const TEMPLATE_ID = "template_yhzl5a9";
 const USER_ID = "user_mYSixpJjWbz9jyZ9iqwYr";
 const Contact = () => {
-    const form = useRef();
+    const form = useRef<any>();
 
-    const sendEmail = (e) => {
+    const sendEmail = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
 
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID)
