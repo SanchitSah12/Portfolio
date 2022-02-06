@@ -4,7 +4,7 @@ function About() {
     return (
         <section className="p-4 lg:flex m-[5%] reveal  lg:mb-32" id="about">
             <div className="lg:m-4 lg:ml-10">
-                <img className="w-52 h-52 block ml-auto mr-auto rounded-full lg:h-72 lg:w-72 lg:absolute lg:translate-y-[2rem]" src="https://media-exp1.licdn.com/dms/image/C4D03AQFR32hT71fs0A/profile-displayphoto-shrink_400_400/0/1641449042082?e=1649289600&v=beta&t=rgm7IDKNGUMhlOFtfWqDuQ-v4jA8QrJqAxGGTtQ7v80" alt="" />
+                <img className="w-52 h-52 block ml-auto mr-auto rounded-full lg:h-72 lg:w-72 lg:absolute lg:translate-y-[2rem]" src="https://i.postimg.cc/nz0XBfXx/1641449042082.jpg" alt="" />
             </div>
 
             <div className="text-black mt-10 lg:ml-96">

@@ -7,9 +7,9 @@ const SERVICE_ID = "service_dnqo4tp";
 const TEMPLATE_ID = "template_yhzl5a9";
 const USER_ID = "user_mYSixpJjWbz9jyZ9iqwYr";
 const Contact = () => {
-    const form = useRef<any>();
+    const form = useRef();
 
-    const sendEmail = (e: { preventDefault: () => void; }) => {
+    const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID)
@@ -56,8 +56,8 @@ const Contact = () => {
                         <label className="text-gray-600">Suggestions:</label>
                         <textarea className="inputForm mb-4" name="suggestions" />
                     </div>
-                    <input className="text-white back hover: p-4 hover:bg-opacity-30" type="submit" value="Send" />
-                    <div className="w-full py-7 -translate-y-14 hover:bg-gray-500 hover:bg-opacity-60 "></div>
+                    <input className="text-white bg-black hover: p-4 hover:bg-gray-800" type="submit" value="Send" />
+                    {/* <div className="w-full py-7 -translate-y-14 hover:bg-gray-500 hover:bg-opacity-60 "></div> */}
 
                 </div>
 
